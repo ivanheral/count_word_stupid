@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 // css
 import "./test.css";
+// css modules
+import example from "./test.module.css";
 // json
 import conf from "./test.json";
 
@@ -16,7 +18,7 @@ const TextArea = () => {
   };
 
   return (
-    <div>
+    <div class={example.bg}>
       <p>How many times have you written "stupid"?</p>
       <textarea
         class="textarea"

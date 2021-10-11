@@ -11,13 +11,18 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "less": "^4.1.1",
+    "postcss": "^8.2.13",
+    "postcss-modules": "^4.0.0",
+    "sass": "^1.32.12",
+    "stylus": "^0.54.8"
   },
   "devDependencies": {
     "@taskr/clear": "^1.1.0",
     "@taskr/esnext": "^1.1.0",
     "@taskr/watch": "^1.1.0",
     "taskr": "^1.1.0",
-    "taskr-esbuild": "^1.0.0",
+    "taskr-esbuild": "^1.0.5",
     "taskr-servor": "^1.0.4"
   }
 }
